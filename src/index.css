@@ -154,7 +154,7 @@ footer img {
   width: 30%;
   float: left;
   background-color: #fff;
-  height: 370px;
+  min-height: 370px;
   margin-left: 2%;
   color: #272727;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
