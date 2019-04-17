@@ -1,9 +1,14 @@
 # Single Page Application - Blog
-This is simple blog page that uses ReactJS
+This is single page application for blog page that uses [ReactJS](https://reactjs.org/).
+
+# Description
+This is a simple blog page which makes use of [ReactJS](https://reactjs.org/) to implement SPA design.             
+This blog page includes three blog posts on main page and on clicking it renders the full blog post.
+And in the nav section there is a section which displays the top 10 headlines of google using [Google New API](https://newsapi.org/s/google-news-api)
 
 # Steps to run
 
-1. You must install the [node.js](https://nodejs.org/en/download/)                
+1. You must install the [node.js](https://nodejs.org/en/download/)                    
    Link: https://nodejs.org/en/download/
 2. Open command prompt (or any equivalent to that)
 3. Change the directory to the folder where all code present         
