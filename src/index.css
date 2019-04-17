@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0px;
+}
+
+.clear-fix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Header Styles */
+
+.main-section {
+  width: 100%;
+  background-color: #DCD9D4;
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+}
+
+header {
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 100px 10px 100px;
+  background-image: url("./images/header_background.gif");
+  min-height: 100px;
+  background-size: 100%;
+}
+
+.heading {
+  margin-top: 10px;
+}
+
+.heading h1 {
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: 'Black Ops One', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 0.18em;
+}
+
+.heading h2 {
+  text-transform: lowercase;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: normal;
+  font-family: 'Yesteryear', cursive;
+  letter-spacing: 0.2em;
+}
+
+#root {
+  width: 75%;
+  float: left;
+}
+
+.blog-heading {
+  font-family: "Acme", "Times New Roman";
+  text-align: center;
+  padding: 18px;
+  text-transform: uppercase;
+  color: #272727;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.nav-section {
+  width: 25%;
+  float: left;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+footer {
+  left: 0px;
+  bottom: 0px;
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
+  clear: both;
+  background-color: #26262a;
+  width: 100%;
+  min-height: 40px;
+}
+
+footer h1 {
+  font-family: "Kaushan Script", "Times New Roman";
+  padding: 0px 0px 20px 0px;
+}
+
+footer p {
+  color: rgba(255, 255, 255, 0.4);
+  padding-bottom: 20px;
+  font-family: Tangerine;
+  font-size: 25px;
+}
+
+footer a {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+footer img {
+  width: 20px;
+  height: 20px;
+}
+
+#ajax-data {
+  margin-top: 20px;
+}
+
+.nav-section a {
+  font-family: 'Lobster Two', "Times New Roman";
+  align-content: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #272727;
+  background-color: transparent;
+  transition: 0.1s background-color linear, 0.1s color linear;
+  padding: 7px 19px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #272727;
+}
+
+.nav-section a:hover {
+  background-color: #272727;
+  color: #ffffff;
+}
+
+.news li {
+  font-family: "Quicksand", "Times New Roman";
+  font-size: 14px;
+  list-style-position: inside;
+  list-style-type: square;
+  line-height: 25px;
+  padding: 6.5px 0px 6.5px 0px;
+}
+
+#ajax-data h2 {
+  font-family: 'Special Elite', "San serif";
+  font-size: 18px;
+  padding: 20px 5px;
+}
+
+.blog-posts {
+  width: 100%;
+}
+
+.post {
+  width: 30%;
+  float: left;
+  background-color: #fff;
+  height: 370px;
+  margin-left: 2%;
+  color: #272727;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+}
+
+.post:hover {
+  box-shadow: 0 4px 8px 0 rgb(136, 167, 232), 0 6px 20px 0 rgb(136, 167, 232);
+}
+
+.post img {
+  width: 100%;
+  height: 200px;
+}
+
+.post img:hover {
+  opacity: 0.7;
+}
+
+.title-link {
+  text-decoration: none;
+}
+
+.post-title {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 15px;
+  font-family: "Cinzel", "san serif";
+}
+
+.post time {
+  align-content: center;
+  font-family: "Special Elite", cursive;
+  font-size: 13px;
+}
+
+.post p {
+  font-family: "Abel", "Times New Roman";
+  padding: 17px;
+}
+
+.post-page {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  padding: 40px;
+  font-family: "Abel", "Times New Roman";
+  font-size: 17px;
+  line-height: 1.8em;
+}
+
+.post-page img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.post-page p {
+  text-align: justify;
+  padding: 6.5px 0px 6.5px 0px;
+}
+
+.special-text {
+  font-family: "Lobster", "cursive";
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.post-page h1 {
+  padding: 10px 30px 30px 30px;
+  font-size: 40px;
+  color: #272727;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.post-page h2 {
+  padding: 15px 0px 15px 0px;
+}
+
+.post-page li {
+  list-style-position: inside;
+}
+
+.icon:hover {
+  opacity: 0.5;
+}
+
+.news-heading p{
+  font-family: "Orbitron", "San Serif";
+  color: #ee7762;
+}
